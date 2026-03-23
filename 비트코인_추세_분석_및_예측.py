@@ -39,5 +39,7 @@ forecast = model.predict(future)
 #그래프1
 fig1 = model.plot(forecast)
 
+print("hello World")
+
 #그래프2
 fig2 = model.plot_components(forecast)
